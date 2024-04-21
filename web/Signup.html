@@ -17,33 +17,54 @@
     <script type="text/javascript" src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"></script>
 
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-
-
 </head>
 
 <body class="flex-column">
     <div class="login root">
         
-        <div id = "wrapper">
-            <form action ="" id = "form-login">
+        <div id="wrapper">
+            <form action="" id="form-login" class="login-form">
                 <div class="form-heading">Đăng Nhập</div>
-                <div class ="form-title">Username</div>
-                <div class = "form-group">
-                    <input type="email" class = "form-input" placeholder="exampel@gmail.com">
+                <div class="form-title">Username</div>
+                <div class="form-group">
+                    <input type="email" class="form-input" placeholder="example@gmail.com" style="width: 100%;">
                 </div>
-                <div class ="form-title">Password</div>
-                <div class = "form-group">
-                    <input type="password" class = "form-input" placeholder="@#$%">
-                    <div class ="eye"><i class="fa-regular fa-eye"></i></div>
+                <div class="form-title">Password</div>
+                <div class="form-group">
+                    <input type="password" id="password-field" class="form-input" placeholder="Password" style="width: 100%;">
+                    <div class="eye"><i id="toggle-password" class="fa-regular fa-eye"></i></div>
                 </div>
-                <div class = "container-form-submit">
-                    <input type="submit" value="Đăng Nhập" class = "form-submit">
-                    <div>or</div>
-                    <input type="submit" value="Đăng ký" class = "form-submit">
+                <div class="container-form-submit">
+                    <input type="submit" value="Đăng Nhập" class="form-submit">
+                </div>
+                <div class="form-signUp">
+                    <div class="form-title">Chưa có tài khoản?</div>
+                    <a href="#" id="signup-link">Đăng ký</a>
+                </div>
+            </form>
+
+            <form action="" id="form-signup" class="login-form" style="display: none;">
+                <div class="form-heading">Đăng Ký</div>
+                <div class="form-title">Username</div>
+                <div class="form-group">
+                    <input type="email" class="form-input" placeholder="example@gmail.com" style="width: 100%;">
+                </div>
+                <div class="form-title">Password</div>
+                <div class="form-group">
+                    <input type="password" id="password-field" class="form-input" placeholder="Password" style="width: 100%;">
+                    <div class="eye"><i id="toggle-password" class="fa-regular fa-eye"></i></div>
+                </div>
+                <div class="container-form-submit">
+                    <input type="submit" value="Đăng ký" class="form-submit">
+                </div>
+                <div class="form-signUp">
+                    <div class="form-title">Đã có tài khoản?</div>
+                    <a href="#" id="login-link">Đăng nhập</a>
                 </div>
             </form>
         </div>
+
+        
 
         <div class="group3">
             <div class="group4">
@@ -61,16 +82,14 @@
             </div>
             <img class="decorator1" src="./assets/430c8c7650fba13d826b3266167ae37b.png" alt="alt text" />
         </div>
-
-        <!-- <h4 class="highlight"></h4> -->
-
-
-
     </div>
+
+    <script type="text/javascript" src="./Signup.js"></script>
     <script type="text/javascript">
         AOS.init();
         new Sticky('.sticky-effect');
     </script>
 </body>
-
+<script src="https://code.jquery.com/jquery-3.7.1.js" ></script>
+<script src="./Signup.js" ></script>
 </html>
