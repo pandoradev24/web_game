@@ -1,0 +1,527 @@
+.login.root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #e4d6c0;
+  border-radius: 32px 32px 32px 32px;
+  overflow: hidden;
+}
+.login .text1 {
+  position: absolute;
+  top: 427px;
+  left: 439px;
+  width: 65px;
+  height: 20px;
+  font: 500 14px/1.42 "Inter", Helvetica, Arial, serif;
+  color: #4d4f4f;
+  letter-spacing: -0.16px;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .text1 {
+    top: 422px;
+    left: 731.4px;
+    align-items: flex-start;
+    width: 100px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .text1 {
+    top: 420px;
+    left: 530px;
+  }
+}
+.login .text11 {
+  position: absolute;
+  top: 350px;
+  left: 441px;
+  width: 42px;
+  height: 20px;
+  font: 14px/1.42 "Inter", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: -0.16px;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .text11 {
+    top: 345px;
+    left: 731.4px;
+    align-items: flex-start;
+    width: 100px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .text11 {
+    left: 530px;
+  }
+}
+.login .big_title {
+  position: absolute;
+  top: 296px;
+  left: 563px;
+  width: 116px;
+  height: 35px;
+  font: 600 35px/1 "Inter", Helvetica, Arial, serif;
+  color: #2a4343;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .big_title {
+    left: 870px;
+    align-items: flex-start;
+    width: 150px;
+    font-size: 40px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .big_title {
+    left: 630px;
+  }
+}
+@media (max-width: 991px) {
+  .login .big_title {
+    align-items: flex-start;
+    font-size: 32px;
+  }
+}
+@media (max-width: 479px) {
+  .login .big_title {
+    font-size: 28px;
+  }
+}
+.login .group {
+  position: absolute;
+  top: 371px;
+  left: 430px;
+  display: flex;
+  flex-direction: column;
+  width: 395px;
+  height: 38px;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .group {
+    left: 718px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .group {
+    left: 430px;
+  }
+}
+.login .rect {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 395px;
+  height: 38px;
+  background-color: #f7fafc;
+  border-radius: 12px 12px 12px 12px;
+  transform: translate(-50%, 0);
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .rect {
+    left: 72%;
+  }
+}
+.login .text {
+  position: absolute;
+  top: 7px;
+  left: 14px;
+  display: flex;
+  align-items: center;
+  width: 134px;
+  height: 20px;
+  font: 400 14px/1.42 "Inter", Helvetica, Arial, serif;
+  color: #4a5568;
+  letter-spacing: -0.16px;
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .text {
+    left: 100px;
+  }
+}
+.login .group1 {
+  position: absolute;
+  top: 448px;
+  left: 430px;
+  display: flex;
+  flex-direction: column;
+  width: 395px;
+  height: 36px;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .group1 {
+    left: 718px;
+  }
+}
+.login .group2 {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 395px;
+  height: 36px;
+  transform: translate(-50%, 0);
+}
+.login .rect1 {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 395px;
+  height: 36px;
+  background-color: #f7fafc;
+  border-radius: 12px 12px 12px 12px;
+  transform: translate(-50%, 0);
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .rect1 {
+    left: 0%;
+  }
+}
+.login .image1 {
+  position: absolute;
+  top: -3px;
+  right: -1px;
+  width: 54px;
+  height: 40px;
+  border-radius: 0px 6px 6px 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .image1 {
+    right: 200px;
+  }
+}
+.login .text2 {
+  position: absolute;
+  top: 7px;
+  left: 16px;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 20px;
+  font: 400 14px/1.42 "Inter", Helvetica, Arial, serif;
+  color: #4a5568;
+  letter-spacing: -0.16px;
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .text2 {
+    left: -185px;
+  }
+}
+.login .text3 {
+  position: absolute;
+  top: 494px;
+  left: 438px;
+  display: flex;
+  align-items: center;
+  width: 96px;
+  height: 39px;
+  font: 400 14px/2.78 "Inter", Helvetica, Arial, serif;
+  color: #4d4f4f;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .text3 {
+    left: 731.4px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .text3 {
+    left: 530px;
+  }
+}
+.login .rect2 {
+  position: absolute;
+  top: 526px;
+  left: 430px;
+  width: 395px;
+  height: 45px;
+  background-color: #bc7171;
+  border-radius: 20px 20px 20px 20px;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .rect2 {
+    left: 720px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .rect2 {
+    left: 517px;
+  }
+}
+.login .group3 {
+  position: absolute;
+  top: -104px;
+  left: -52px;
+  display: flex;
+  flex-direction: column;
+  width: 1451px;
+  height: 400px;
+}
+.login .group4 {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 1451px;
+  height: 400px;
+  transform: translate(-50%, 0);
+}
+.login .background {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 1451px;
+  height: 400px;
+  background: var(--src) center center/100% 100% no-repeat;
+  transform: translate(-50%, 0);
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .background {
+    top: -177px;
+    width: 210%;
+    height: 170%;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .background {
+    top: -210px;
+  }
+}
+.login .subtitle {
+  position: absolute;
+  top: 272px;
+  left: 865px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 32px;
+  font: 300 20px/1.6 "Lato", Helvetica, Arial, serif;
+  color: #f4f4fc;
+  text-align: center;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .subtitle {
+    top: 305px;
+    right: 35%;
+    left: 1100px;
+    width: 200px;
+    font-size: 30px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .subtitle {
+    top: 272px;
+    left: 935px;
+  }
+}
+@media (max-width: 991px) {
+  .login .subtitle {
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .login .subtitle {
+    font-size: 16px;
+  }
+}
+.login .decorator2 {
+  position: absolute;
+  top: 116px;
+  right: 119px;
+  width: 176px;
+  height: 33px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .decorator2 {
+    top: 140px;
+    right: -560px;
+    width: 39%;
+    height: 97.5px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .decorator2 {
+    top: 111px;
+    right: -56px;
+    width: 30%;
+    height: 75px;
+  }
+}
+.login .hero_title {
+  position: absolute;
+  top: 196px;
+  left: 383px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 617px;
+  height: 80px;
+  font: 400 123.0769271851px/0.64 "Sacramento", Helvetica, Arial, serif;
+  color: #f4f4fc;
+  text-align: center;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .hero_title {
+    top: 230px;
+    left: 650px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .hero_title {
+    top: 204px;
+    left: 480px;
+    font-size: 123.08px;
+  }
+}
+@media (max-width: 991px) {
+  .login .hero_title {
+    font-size: 52px;
+  }
+}
+@media (max-width: 479px) {
+  .login .hero_title {
+    font-size: 36px;
+  }
+}
+.login .image {
+  position: absolute;
+  bottom: -37px;
+  left: 125px;
+  width: 249px;
+  height: 74px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .image {
+    bottom: -44px;
+    left: 88px;
+    width: 323.7px;
+    height: 94.9px;
+  }
+}
+.login .decorator1 {
+  position: absolute;
+  top: 104px;
+  left: -356px;
+  width: 712px;
+  height: 90px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .decorator1 {
+    top: 103px;
+    left: -332px;
+    width: 65%;
+    height: 120px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .decorator1 {
+    top: 62px;
+    left: -423px;
+  }
+}
+.login .highlight {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 535px 0px 260px 46.41%;
+  width: 58px;
+  max-width: 85%;
+  font: 18px/1.55 "Inter", Helvetica, Arial, serif;
+  color: #f7fafc;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .highlight {
+    width: 65px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .highlight {
+    margin: 535px 0px 260px 47.5%;
+  }
+}
+@media (max-width: 991px) {
+  .login .highlight {
+    margin: 150px auto;
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .login .highlight {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .login .highlight {
+    margin: 50px auto;
+  }
+}
+.login .box {
+  position: absolute;
+  top: 590px;
+  left: 430px;
+  display: flex;
+  flex-direction: column;
+  width: 395px;
+  height: 44px;
+  border-radius: 22.25px 22.25px 22.25px 22.25px;
+  outline: 1px solid black;
+  outline-offset: -1px;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .box {
+    left: 720px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .box {
+    left: 517px;
+  }
+}
+.login .text21 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 8px auto;
+  font: 500 14px/2 "Inter", Helvetica, Arial, serif;
+  color: #4d4f4f;
+}
+.login .image2 {
+  position: absolute;
+  top: 50%;
+  left: 19px;
+  width: 20px;
+  height: 19px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transform: translate(0, -50%);
+}
+.login .text4 {
+  position: absolute;
+  top: 502px;
+  left: 692px;
+  width: 120px;
+  height: 21px;
+  font: 500 14px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #1c4532;
+  text-decoration: underline;
+}
+@media (min-width: 1400px) and (max-width: 2999px) {
+  .login .text4 {
+    left: 980px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .login .text4 {
+    left: 780px;
+  }
+}

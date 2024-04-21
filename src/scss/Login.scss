@@ -1,0 +1,439 @@
+@use "utils" as *;
+@use "global" as *;
+
+.login {
+  &.root {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 214, 192);
+    border-radius: 32px 32px 32px 32px;
+    overflow: hidden;
+  }
+  .text1 {
+    position: absolute;
+    top: 427px;
+    left: 439px;
+    width: 65px;
+    height: 20px;
+    font: 500 14px/1.42 "Inter", Helvetica, Arial, serif;
+    color: rgb(77, 79, 79);
+    letter-spacing: -0.16px;
+    @include mq-between(xl, xxxl) {
+      top: 422px;
+      left: 731.4px;
+      align-items: flex-start;
+      width: 100px;
+      font-size: 20px;
+    }
+    @include mq-between(xl, xxl) {
+      top: 420px;
+      left: 530px;
+    }
+  }
+  .text11 {
+    position: absolute;
+    top: 350px;
+    left: 441px;
+    width: 42px;
+    height: 20px;
+    font: 14px/1.42 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    letter-spacing: -0.16px;
+    @include mq-between(xl, xxxl) {
+      top: 345px;
+      left: 731.4px;
+      align-items: flex-start;
+      width: 100px;
+      font-size: 20px;
+    }
+    @include mq-between(xl, xxl) {
+      left: 530px;
+    }
+  }
+  .big_title {
+    position: absolute;
+    top: 296px;
+    left: 563px;
+    width: 116px;
+    height: 35px;
+    font: 600 35px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(42, 67, 67);
+    @include mq-between(xl, xxxl) {
+      left: 870px;
+      align-items: flex-start;
+      width: 150px;
+      font-size: 40px;
+    }
+    @include mq-between(xl, xxl) {
+      left: 630px;
+    }
+    @include md {
+      align-items: flex-start;
+      font-size: 32px;
+    }
+    @include xxs {
+      font-size: 28px;
+    }
+  }
+  .group {
+    position: absolute;
+    top: 371px;
+    left: 430px;
+    display: flex;
+    flex-direction: column;
+    width: 395px;
+    height: 38px;
+    @include mq-between(xl, xxxl) {
+      left: 718px;
+    }
+    @include mq-between(xl, xxl) {
+      left: 430px;
+    }
+  }
+  .rect {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 395px;
+    height: 38px;
+    background-color: rgb(247, 250, 252);
+    border-radius: 12px 12px 12px 12px;
+    transform: translate(-50%, 0);
+    @include mq-between(xl, xxl) {
+      left: 72%;
+    }
+  }
+  .text {
+    position: absolute;
+    top: 7px;
+    left: 14px;
+    display: flex;
+    align-items: center;
+    width: 134px;
+    height: 20px;
+    font: 400 14px/1.42 "Inter", Helvetica, Arial, serif;
+    color: rgb(74, 85, 104);
+    letter-spacing: -0.16px;
+    @include mq-between(xl, xxl) {
+      left: 100px;
+    }
+  }
+  .group1 {
+    position: absolute;
+    top: 448px;
+    left: 430px;
+    display: flex;
+    flex-direction: column;
+    width: 395px;
+    height: 36px;
+    @include mq-between(xl, xxxl) {
+      left: 718px;
+    }
+  }
+  .group2 {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 395px;
+    height: 36px;
+    transform: translate(-50%, 0);
+  }
+  .rect1 {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 395px;
+    height: 36px;
+    background-color: rgb(247, 250, 252);
+    border-radius: 12px 12px 12px 12px;
+    transform: translate(-50%, 0);
+    @include mq-between(xl, xxl) {
+      left: 0%;
+    }
+  }
+  .image1 {
+    position: absolute;
+    top: -3px;
+    right: -1px;
+    width: 54px;
+    height: 40px;
+    border-radius: 0px 6px 6px 0px;
+    object-fit: cover;
+    @include mq-between(xl, xxl) {
+      right: 200px;
+    }
+  }
+  .text2 {
+    position: absolute;
+    top: 7px;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+    font: 400 14px/1.42 "Inter", Helvetica, Arial, serif;
+    color: rgb(74, 85, 104);
+    letter-spacing: -0.16px;
+    @include mq-between(xl, xxl) {
+      left: -185px;
+    }
+  }
+  .text3 {
+    position: absolute;
+    top: 494px;
+    left: 438px;
+    display: flex;
+    align-items: center;
+    width: 96px;
+    height: 39px;
+    font: 400 14px/2.78 "Inter", Helvetica, Arial, serif;
+    color: rgb(77, 79, 79);
+    @include mq-between(xl, xxxl) {
+      left: 731.4px;
+    }
+    @include mq-between(xl, xxl) {
+      left: 530px;
+    }
+  }
+  .rect2 {
+    position: absolute;
+    top: 526px;
+    left: 430px;
+    width: 395px;
+    height: 45px;
+    background-color: rgb(188, 113, 113);
+    border-radius: 20px 20px 20px 20px;
+    @include mq-between(xl, xxxl) {
+      left: 720px;
+    }
+    @include mq-between(xl, xxl) {
+      left: 517px;
+    }
+  }
+  .group3 {
+    position: absolute;
+    top: -104px;
+    left: -52px;
+    display: flex;
+    flex-direction: column;
+    width: 1451px;
+    height: 400px;
+  }
+  .group4 {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 1451px;
+    height: 400px;
+    transform: translate(-50%, 0);
+  }
+  .background {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 1451px;
+    height: 400px;
+    background: var(--src) center center / 100% 100% no-repeat;
+    transform: translate(-50%, 0);
+    @include mq-between(xl, xxxl) {
+      top: -177px;
+      width: 210%;
+      height: 170%;
+    }
+    @include mq-between(xl, xxl) {
+      top: -210px;
+    }
+  }
+  .subtitle {
+    position: absolute;
+    top: 272px;
+    left: 865px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 32px;
+    font: 300 20px/1.6 "Lato", Helvetica, Arial, serif;
+    color: rgb(244, 244, 252);
+    text-align: center;
+    @include mq-between(xl, xxxl) {
+      top: 305px;
+      right: 35%;
+      left: 1100px;
+      width: 200px;
+      font-size: 30px;
+    }
+    @include mq-between(xl, xxl) {
+      top: 272px;
+      left: 935px;
+    }
+    @include md {
+      font-size: 18px;
+    }
+    @include xxs {
+      font-size: 16px;
+    }
+  }
+  .decorator2 {
+    position: absolute;
+    top: 116px;
+    right: 119px;
+    width: 176px;
+    height: 33px;
+    object-fit: cover;
+    @include mq-between(xl, xxxl) {
+      top: 140px;
+      right: -560px;
+      width: 39%;
+      height: 97.5px;
+    }
+    @include mq-between(xl, xxl) {
+      top: 111px;
+      right: -56px;
+      width: 30%;
+      height: 75px;
+    }
+  }
+  .hero_title {
+    position: absolute;
+    top: 196px;
+    left: 383px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 617px;
+    height: 80px;
+    font: 400 123.0769271850586px/0.64 "Sacramento", Helvetica, Arial, serif;
+    color: rgb(244, 244, 252);
+    text-align: center;
+    @include mq-between(xl, xxxl) {
+      top: 230px;
+      left: 650px;
+    }
+    @include mq-between(xl, xxl) {
+      top: 204px;
+      left: 480px;
+      font-size: 123.08px;
+    }
+    @include md {
+      font-size: 52px;
+    }
+    @include xxs {
+      font-size: 36px;
+    }
+  }
+  .image {
+    position: absolute;
+    bottom: -37px;
+    left: 125px;
+    width: 249px;
+    height: 74px;
+    object-fit: cover;
+    @include mq-between(xl, xxxl) {
+      bottom: -44px;
+      left: 88px;
+      width: 323.7px;
+      height: 94.9px;
+    }
+  }
+  .decorator1 {
+    position: absolute;
+    top: 104px;
+    left: -356px;
+    width: 712px;
+    height: 90px;
+    object-fit: cover;
+    @include mq-between(xl, xxxl) {
+      top: 103px;
+      left: -332px;
+      width: 65%;
+      height: 120px;
+    }
+    @include mq-between(xl, xxl) {
+      top: 62px;
+      left: -423px;
+    }
+  }
+  .highlight {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 535px 0px 260px 46.41%;
+    width: 58px;
+    max-width: 85%;
+    font: 18px/1.55 "Inter", Helvetica, Arial, serif;
+    color: rgb(247, 250, 252);
+    @include mq-between(xl, xxxl) {
+      width: 65px;
+    }
+    @include mq-between(xl, xxl) {
+      margin: 535px 0px 260px 47.5%;
+    }
+    @include md {
+      margin: 150px auto;
+      font-size: 16px;
+    }
+    @include xs {
+      margin: 80px auto;
+    }
+    @include tn {
+      margin: 50px auto;
+    }
+  }
+  .box {
+    position: absolute;
+    top: 590px;
+    left: 430px;
+    display: flex;
+    flex-direction: column;
+    width: 395px;
+    height: 44px;
+    border-radius: 22.25px 22.25px 22.25px 22.25px;
+    outline: 1px solid rgb(0, 0, 0);
+    outline-offset: -1px;
+    @include mq-between(xl, xxxl) {
+      left: 720px;
+    }
+    @include mq-between(xl, xxl) {
+      left: 517px;
+    }
+  }
+  .text21 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 8px auto;
+    font: 500 14px/2 "Inter", Helvetica, Arial, serif;
+    color: rgb(77, 79, 79);
+  }
+  .image2 {
+    position: absolute;
+    top: 50%;
+    left: 19px;
+    width: 20px;
+    height: 19px;
+    object-fit: cover;
+    transform: translate(0, -50%);
+  }
+  .text4 {
+    position: absolute;
+    top: 502px;
+    left: 692px;
+    width: 120px;
+    height: 21px;
+    font: 500 14px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(28, 69, 50);
+    text-decoration: underline;
+    @include mq-between(xl, xxxl) {
+      left: 980px;
+    }
+    @include mq-between(xl, xxl) {
+      left: 780px;
+    }
+  }
+}
